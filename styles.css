@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', serif;
+    color: #0a0a0a;
+    background-color: #ecf0f1;
+    line-height: 1.6;
+}
+
+/* Skills Section Styles */
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.skills-content {
+    margin-top: 20px;
+}
+
+.progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: 'Times New Roman', serif;
+    color: #2c3e50;
+}
+
+.progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+
+.progress-bar-wrap {
+    background: #ecf0f1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 1px;
+    height: 10px !important;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    background-color: #f39c12; /* Gold accent for classical theme */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: width 2s ease-in-out;
+}
+
+.progress-bar:hover {
+    background-color: #e67e22; /* Darker gold on hover */
+}
+
+.navbar {
+    background: rgba(82, 151, 220, 0.9);
+    transition: all 0.1s;
+}
+
+.navbar.scrolled {
+    background: rgba(44, 62, 80, 1);
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #0c8de4, #ecf0f1);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#hero::before {
+    content: "";
+    background: rgba(87, 87, 87, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .container {
+    position: relative;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #dfe3e7;
+}
+
+#hero p {
+    color: #34495e;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.btn-get-started {
+    font-family: 'Times New Roman', serif;
+    
+}
+.resume, .services, .contact, .about, .portfolio-details, #footer{
+   margin-bottom: 30px;
+    background-color: #f2eeee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(227, 8, 8, 0.3);
+    transition: transform 0.3s;
+}
+.copyright{
+    text-align: center;
+}
+/* Download Button Styles */
+.btn-download {
+    background-color: #2c3e50; /* Navy background */
+    color: #6cd1f9; /* Gold text */
+    border: 2px solid #f5e029; /* Gold border */
+    padding: 10px 20px;
+    font-family: 'Times New Roman', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-download:hover {
+    background-color: #25cef4; /* Gold background on hover */
+    color: #2c3e50; /* Navy text on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); /* Slight lift for wow effect */
+}
+
+.btn-download:active {
+    transform: translateY(0); /* Press effect */
+}
+.navbar-nav{
+    transition: 0;
+}
